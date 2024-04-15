@@ -1,0 +1,141 @@
+button {
+    margin: 7px 7px 0 0;
+}
+
+.type__btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+
+/* Botón repositorio */
+
+  .btn__repo {   
+    background-color: #83abe7;
+    background-image: linear-gradient(315deg, #96bee4 0%, #88acce 74%);
+    border: none;
+    z-index: 1;
+  }
+
+  .btn__repo:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: #83abe7;
+    background-image: linear-gradient(315deg, #96bee4 0%, #88acce 74%);
+    box-shadow:
+     -7px -7px 20px 0px #fff9,
+     -4px -4px 5px 0px #fff9,
+     7px 7px 20px 0px #0002,
+     4px 4px 5px 0px #0001;
+    transition: all 0.3s ease;
+  }
+
+  .btn__repo:hover {
+    color: #000;
+  }
+
+  .btn__repo:hover:after {
+    top: 0;
+    height: 100%;
+  }
+
+  .btn__repo:active {
+    top: 2px;
+  }
+  
+/* Botón demo */
+
+.btn__demo {
+    background-image: linear-gradient(315deg, #ffc8a2 0%, #f4a77d 74%);
+    border: none;
+    z-index: 1;
+  }
+
+.btn__demo:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: #eaf818;
+    background-image:  linear-gradient(315deg, #ffc8a2 0%, #f4a77d 74%);
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+
+.btn__demo:hover {
+    color: #000;
+  }
+
+.btn__demo:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+}
+
+.btn__demo:active {
+    top: 2px;
+}
+
+/* Botón formulario */
+
+.btn__form {
+  background: #cf9ec7;
+  background-image: linear-gradient(45deg, #a2c9b3 0%, #8bad89 74%);
+  border: none;
+  z-index: 1;
+}
+
+.btn__form:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #83abe7;
+  background-image:linear-gradient(45deg, #8bad89 0%, #a2c9b3 74%);
+  border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+
+.btn__form:hover {
+  color: #fff;
+}
+
+.btn__form:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+.btn__form:active {
+  top: 2px;
+}
